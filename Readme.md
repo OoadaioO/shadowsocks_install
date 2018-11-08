@@ -1,6 +1,16 @@
 ![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
 
+service control
+=================
+
+- 启动：/etc/init.d/shadowsocks start
+- 停止：/etc/init.d/shadowsocks stop
+- 重启：/etc/init.d/shadowsocks restart
+- 状态：/etc/init.d/shadowsocks status
+
+
+
 shadowsocks.sh
 ===============
 - Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
@@ -40,10 +50,5 @@ haproxy.sh
 ===============
 - Auto Install haproxy for Shadowsocks Server
 - https://shadowsocks.be/10.html
-
-启动：/etc/init.d/shadowsocks start
-停止：/etc/init.d/shadowsocks stop
-重启：/etc/init.d/shadowsocks restart
-状态：/etc/init.d/shadowsocks status
 
 Copyright (C) 2014-2018 Teddysun
