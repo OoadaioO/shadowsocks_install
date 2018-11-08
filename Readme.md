@@ -41,4 +41,9 @@ haproxy.sh
 - Auto Install haproxy for Shadowsocks Server
 - https://shadowsocks.be/10.html
 
+启动：/etc/init.d/shadowsocks start
+停止：/etc/init.d/shadowsocks stop
+重启：/etc/init.d/shadowsocks restart
+状态：/etc/init.d/shadowsocks status
+
 Copyright (C) 2014-2018 Teddysun
